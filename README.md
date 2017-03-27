@@ -30,6 +30,54 @@ To eliminate the complexity of specifying arguments to Lazybones, I've created a
 
 ## Example: basic-java-eclipse template
 
+In this example, we'll be creating a project using the basic-java-eclipse template with a project name of "foo-bar". A student would open Git Bash, placing her in her home directory (`~`), then run `createBasicJavaProject foo-bar`.
+
+This will create the following files/folders in the `foo-bar` folder:
+
+- build.gradle
+- .gitignore
+- README.md
+- src/main/java/org/wecancodeit/fooBar/FooBarApp.java
+- .lazybones/ (ignored via .gitignore)
+
+Afterwards, it will:
+- `cd` into the `foo-bar` folder
+- run `gradle eclipse` to set up the Eclipse project configuration
+
+### Generated Java application file
+
+```
+package org.wecancodeit.fooBar;
+
+public class FooBarApp {
+
+	public static void main(String[] args) {
+		// write your code here
+	}
+
+}
+```
+
+### Generated README.md
+
+See it rendered in all its glory [here](sample-README.md).
+
+```
+# Basic Java/Gradle/Eclipse project template
+
+You have just created a basic Java project using the standard Gradle project layout. It provides a basic Gradle build, including support for generating Eclipse project files so that you can import your project into Eclipse. Java source files should be placed into `src/main/java`. You will find an application class (a class with a `public static void main(String[] args)` method) where you can being writing code at `src/main/java/org/wecancodeit/fooBar/FooBarApp.java`.
+
+## File Locations
+- project folder: `/home/brian/work/foo-bar`
+- main class
+	- relative to project folder: `src/main/java/org/wecancodeit/fooBar/FooBarApp.java`
+	- absolute path: `/home/brian/work/foo-bar/src/main/java/org/wecancodeit/fooBar/FooBarApp.java`
+
+## Next steps
+- Run `gradle eclipse` to generate Eclipse project configuration files.
+- Import the project into Eclipse by selecting *File->Import…*, *General/Existing Projects into Workspace*, then browsing to the `/home/brian/work/foo-bar` folder.
+
+```
 
 # TODO
 
