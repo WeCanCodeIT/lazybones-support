@@ -76,11 +76,3 @@ You have just created a basic Java project using the standard Gradle project lay
 ## Next steps
 - Run `gradle eclipse` to generate Eclipse project configuration files.
 - Import the project into Eclipse by selecting *File->Import…*, *General/Existing Projects into Workspace*, then browsing to the `/home/brian/work/foo-bar` folder.
-
-```
-
-# TODO
-
-- [ ] external script
-	- [ ] [NOT DOING - SRP] use lazybones' --with-git option to initialize project as git repository
-	- [ ] run `gradle eclipse` after project creation
