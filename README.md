@@ -6,7 +6,13 @@ This repository contains instructions/explanations of using [Lazybones](https://
 
 ## Environment configuration
 
-Lazybones must be installed (see [Running It](https://github.com/pledbrook/lazybones#running-it) in the Lazybones README).
+Install Lazybones using [sdkman](http://sdkman.io/):
+
+```
+sdk install lazybones
+```
+
+See [Running It](https://github.com/pledbrook/lazybones#running-it) in the Lazybones README for more instructions.
 
 ### Lazybones configuration
 
