@@ -1,0 +1,1 @@
+lazybones create basic-java-eclipse -PlazybonesRootPackage=org.wecancodeit $1
